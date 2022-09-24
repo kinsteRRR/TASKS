@@ -1,0 +1,10 @@
+str1 = 'FHifjw JD'
+newstr = ''
+for a in str1:
+        if (a.isupper()) == True:
+            newstr += (a.lower())
+        elif (a.islower()) == True:
+            newstr += (a.upper())            
+        elif (a.isspace()) == True:
+            newstr += a            
+print(newstr) 
