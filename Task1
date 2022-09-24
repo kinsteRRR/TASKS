@@ -1,0 +1,11 @@
+import os
+
+directory = "file1"
+parent_dir = "C:/Ex1/"
+path = os.path.join(parent_dir,directory)
+#os.mkdir(path)
+#print("Directory '% s' created" % directory)
+#os.rmdir(path)
+#os.chdir(r"C:/Ex1/")
+#os.rename("file1","Ex22")
+print(os.listdir(parent_dir))
