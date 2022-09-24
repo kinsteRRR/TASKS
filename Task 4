@@ -1,0 +1,29 @@
+import math
+class Tri(4,5,6):
+    def __init__ (self,s1,s2,s3):
+        self.s1 = s1 
+        self.s2 = s2
+        self.s3 = s3
+  
+    def area (self):
+        s1 = self.s1
+        s2 = self.s2
+        s3 = self.s3
+        s = (s1 + s2 + s3) / 2
+        a =math.sqrt(s*(s-self.a)*(s-self.b)*(s-self.c))
+        print('The area of the triangle is %0.2f' %a)
+
+    def per(self):
+        s1 = self.s1
+        s2 = self.s2
+        s3 = self.s3
+        p = s1 + s2 + s3   
+        print('The perimeter of the triangle is %0.2f' %p)  
+    
+
+class D(Tri):
+      def __init__(self):
+        print("in class called")
+
+d = D(4,5,6)
+print(d)
